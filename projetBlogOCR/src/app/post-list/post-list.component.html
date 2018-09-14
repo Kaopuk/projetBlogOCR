@@ -1,0 +1,10 @@
+
+<li [ngClass]="{'list-group-item': true,
+                'list-group-item-success': loveIts > 0,
+                'list-group-item-danger': loveIts < 0}">
+  <app-post-list-item *ngFor="let post of posts"
+                      [title]="post.title"
+                      [createdAt]="post.createdAt"
+                      [content]="post.content">
+  </app-post-list-item>
+</li>
