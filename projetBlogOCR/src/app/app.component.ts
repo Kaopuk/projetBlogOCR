@@ -21,19 +21,19 @@ export class AppComponent {
       title: 'Premier Post',
       content : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt aliqua.',
       createdAt : this.lastUpdate,
-      loveIts : '-1'
+      loveIts: 1
     },
     {
       title: 'Second Post',
       content : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt aliqua.',
       createdAt : this.lastUpdate,
-      loveIts : '1'
+      loveIts: -1
     },
     {
       title: 'Troisième Post',
       content : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt aliqua.',
       createdAt : this.lastUpdate,
-      loveIts : 0
+      loveIts: 0
     }
   ];
 
